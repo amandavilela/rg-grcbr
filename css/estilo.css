@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Championship';
+  src: url('../fonts/Championship.ttf');
+}
+
+body {
+  background: #A3001D;
+  color: #fff;
+  font-family: arial;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  height: 95vh;
+  font-size: 16px;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Championship';
+  text-transform: uppercase;
+  font-size: 120px;
+  font-weight: normal;
+}
+
+.integrantes {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.integrante {
+  border-radius: 50%;
+  border: solid 2px #fff;
+  box-shadow: 12px 10px 15px rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+  width: 180px;
+}
+
+.instrumento {
+  filter: invert(100%);
+  height: 50px;
+}
+
+.descricao {
+  display: flex;
+}
+
+.descricao span {
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+  font-size: 20px;
+}
+
+.redes-sociais {
+  list-style: none;
+  margin: 40px 0;
+  padding: 0;
+}
+
+.redes-sociais li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.redes-sociais li img {
+  filter: invert(100%);
+}
