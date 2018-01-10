@@ -37,7 +37,7 @@ h1 {
   /* Tamanho da espessura do título */
   font-weight: normal;
   /* Margem em volta do título */
-  margin: 10px;
+  margin: 80px auto;
 }
 /* Estilo da lista com as integrantes da banda */
 .integrantes {
