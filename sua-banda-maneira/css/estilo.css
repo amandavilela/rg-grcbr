@@ -8,18 +8,18 @@
 /* Estilo do corpo da página */
 body {
   /* Cor do fundo da página */
-  background: #A3001D;
+  /*background: #A3001D;*/
   /* Cor do texto da página */
-  color: #fff;
+  /*color: #fff;*/
   /* Fonte utilizada nos textos da página */
-  font-family: arial;
+  /*font-family: arial;*/
   /* Tamanho da fonte dos textos da página */
-  font-size: 16px;
+  /*font-size: 16px;*/
 }
 /* Estilo do cabeçalho da página */
 header {
   /* Alinhamento do texto */
-  text-align: center;
+  /*text-align: center;*/
 }
 /* Estilo do logo da banda */
 .logo {
@@ -29,11 +29,11 @@ header {
 /* Estilo do título da página*/
 h1 {
   /* Fonte utilizada no título da página */
-  font-family: 'Championship';
-  /* Transformar o título para caixa alta - todas as letras maiúsculas */
-  text-transform: uppercase;
+  /*font-family: 'Championship';*/
+   /*Transformar o título para caixa alta - todas as letras maiúsculas */
+  /*text-transform: uppercase;*/
   /* Tamanho da fonte do título */
-  font-size: 120px;
+  /*font-size: 120px;*/
   /* Tamanho da espessura do título */
   font-weight: normal;
   /* Margem em volta do título */
@@ -42,36 +42,36 @@ h1 {
 /* Estilo da lista com as integrantes da banda */
 .integrantes {
   /* Remove estilo da lista - bolinhas */
-  list-style: none;
+  /*list-style: none;*/
   /* Margem interna da lista */
   padding: 0;
   /* Margem ao redor da lista */
   margin: 50px auto;
   /* Largura da lista */
-  width: 80%;
+  /*width: 80%;*/
   /* Alinhamento do texto */
-  text-align: center;
+  /*text-align: center;*/
 }
 /* Estilo dos itens da lista com as integrantes*/
 .integrantes li {
   /* Modo de visualização do item */
-  display: inline-block;
+  /*display: inline-block;*/
   /* Margem em volta do item */
   margin: 0 40px;
   /* Alinhamento do texto */
-  text-align: center;
+  /*text-align: center;*/
 }
 /* Estilo da imagem com o instrumento */
 .instrumento {
-  /* Inverte a cor do texto */
-  filter: invert(100%);
+  /* Inverte a cor da imagem */
+  /*filter: invert(100%);*/
   /* Altura da imagem */
-  height: 50px;
+  /*height: 50px;*/
 }
 /* Estilo dos parágrafos da página */
 p {
   /* Tamanho da fonte dos parágrafos */
-  font-size: 20px;
+  /*font-size: 20px;*/
   /* Margem ao redor dos parágrafos */
   margin: 20px auto;
 }
@@ -101,5 +101,5 @@ footer {
 /* Estilo da imagem com o ícone da rede social*/
 .redes-sociais li img {
   /* Inverte a cor da imagem */
-  filter: invert(100%);
+  /*filter: invert(100%);*/
 }
